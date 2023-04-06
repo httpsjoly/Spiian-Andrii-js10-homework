@@ -11,11 +11,7 @@ function sum(a, b) {
 }
 
 let result = sum(2, 3);
-alert(result);
-alert(main(5, 10, function(sum){
-  return sum
-}));
 console.log(result);
-console.log(main(5, 10, function(sum){
-  return sum
+console.log(main(5, 10, function(c){
+  return c * 5
 }));
