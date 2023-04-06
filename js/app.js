@@ -10,8 +10,8 @@ function sum(a, b) {
   return a + b;
 }
 
-let result = sum(2, 3);
+let result = sum(1, 2);
 console.log(result);
 console.log(main(5, 10, function(c){
-  return c * 5
+  return c * 55
 }));
